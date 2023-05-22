@@ -1,6 +1,10 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
+    <v-app-bar
+      app
+      color="primary"
+      dark
+    >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-spacer></v-spacer>
@@ -12,7 +16,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/mtg137/weather-station"
+        href="https://github.com/JTCC-Programming-Club/weather-station"
         target="_blank"
         text
       >
@@ -21,7 +25,11 @@
       </v-btn>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" fixed temporary>
+    <v-navigation-drawer
+      v-model="drawer"
+      fixed
+      temporary
+    >
       <v-list class="list-root" flat shaped>
         <v-list-item link :to="{ name: 'dashboard' }">
           <v-list-item-avatar>
@@ -36,9 +44,9 @@
 
         <v-list-group no-action value="true">
           <template v-slot:activator>
-            <v-list-item-avatar>
-              <v-icon :large="true" color="info">mdi-terrain</v-icon>
-            </v-list-item-avatar>
+          <v-list-item-avatar>
+            <v-icon :large="true" color="info">mdi-terrain</v-icon>
+          </v-list-item-avatar>
             <v-list-item-title>Stations</v-list-item-title>
           </template>
 
@@ -56,11 +64,7 @@
 
         <v-divider />
 
-        <v-list-item
-          style="bottom: 0; position: absolute"
-          link
-          :to="{ name: 'about' }"
-        >
+        <v-list-item style="bottom: 0; position: absolute" link :to="{ name: 'about' }">
           <v-list-item-avatar>
             <v-icon :large="true"></v-icon>
           </v-list-item-avatar>
@@ -81,8 +85,8 @@
 export default {
   data() {
     return {
-      drawer: null,
-    };
-  },
-};
+      drawer: null
+    }
+  }
+}
 </script>
