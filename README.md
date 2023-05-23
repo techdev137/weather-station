@@ -23,21 +23,28 @@ The weather stations send measurements to the API server to collect, which in tu
 
 **Milestones:**
 
-- [x] Week 1
+- **Week 1**
   - [x] Project introduction
   - [x] Explanation of architecture
   - [x] Nodejs review
-- [x] Week 2
+- **Week 2**
   - [x] API introduction
   - [x] fetching data in the web app
-- [x] Week 3
+- **Week 3**
   - [x] Discussing Rust
   - [x] Database introduction
-- [ ] Week 4
-  - [ ] Hardware and Arduino introduction
-- [ ] Web app workshop
+  - Web app workshop (part 1)
+    - [x] Set up node.js
+- **Week 4**
+  - ESP8266 Workshop (part 1)
+    - [x] Hardware and Arduino introduction
+  - Web app workshop (part 2)
+    - [x] Import a charting library for displaying data (#1)
+    - [x] Discuss creating components
+- **Week 5**
+  - ESP8266 Workshop (part 2)
+- [ ] Get the web app displaying data (see [GH issues](https://github.com/mtg137/weather-station/issues))
 - [ ] API server workshop
-- [ ] Arduino workshop
 - [ ] Deploying everything to the real world
 - Optional features
   - [ ] Make app installable and full screen on mobile ([PWA demo](https://youtu.be/S7TIVG5F2xw))
