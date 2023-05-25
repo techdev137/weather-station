@@ -1,3 +1,5 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
+
 This is a monorepo with all the instructions and software to build and program your own solar-powered wi-fi weather station(s).
 
 - [Overview](#overview)
@@ -43,10 +45,19 @@ The weather stations send measurements to the API server to collect, which in tu
     - [x] Discuss creating components
 - **Week 5**
   - ESP8266 Workshop (part 2)
+- **Week 6**
+  - [x] Data modeling on the API versus in the web app
+- **Week 7**
+  - Web app workshop (part 3)
+    - [ ] Routing
+    - [ ] Mocking data
+  - API server workshop (part 1)
+    - Intro to [Actix/Actix Web](https://actix.rs/), [Diesel](http://diesel.rs/), and [Serde](https://github.com/serde-rs/serde)
+- **Week 8**
+  - Web app workshop (part 4)
+- **Future**
 - [ ] Get the web app displaying data (see [GH issues](https://github.com/mtg137/weather-station/issues))
-- [ ] API server workshop
 - [ ] Deploying everything to the real world
-- Optional features
-  - [ ] Make app installable and full screen on mobile ([PWA demo](https://youtu.be/S7TIVG5F2xw))
-  - [ ] Add time series filter (view weather over period of 1yr, 1mo, 1wk, 1dy)
-  - [ ] Add latitude/longitude display
+- [ ] Make app installable and full screen on mobile ([PWA demo](https://youtu.be/S7TIVG5F2xw))
+- [ ] Add time series filter (view weather over period of 1yr, 1mo, 1wk, 1dy)
+- [ ] Add latitude/longitude display?

@@ -16,7 +16,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/JTCC-Programming-Club/weather-station"
+        href="https://github.com/mtg137/weather-station"
         target="_blank"
         text
       >
