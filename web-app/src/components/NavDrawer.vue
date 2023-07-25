@@ -12,7 +12,12 @@
 
       <v-divider />
 
-      <v-list-group active-class="station-section-header" disabled no-action value="true">
+      <v-list-group
+        active-class="station-section-header"
+        disabled
+        no-action
+        value="true"
+      >
         <template v-slot:activator>
           <v-list-item-avatar>
             <v-icon :large="true" color="success">mdi-terrain</v-icon>
@@ -43,14 +48,13 @@
 
       <v-list-item
         style="bottom: 0; position: absolute"
-        link
-        :to="{ name: 'about' }"
+        href="https://github.com/mtg137/weather-station"
       >
         <v-list-item-avatar>
-          <v-icon :large="true"></v-icon>
+          <v-icon>mdi-open-in-new</v-icon>
         </v-list-item-avatar>
         <v-list-item-content>
-          <v-list-item-title>About</v-list-item-title>
+          <v-list-item-title>Source Code</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list>
