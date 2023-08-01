@@ -48,7 +48,7 @@
 
       <v-list-item
         style="bottom: 0; position: absolute"
-        href="https://github.com/mtg137/weather-station"
+        href="https://github.com/techdev137/weather-station"
       >
         <v-list-item-avatar>
           <v-icon>mdi-open-in-new</v-icon>
